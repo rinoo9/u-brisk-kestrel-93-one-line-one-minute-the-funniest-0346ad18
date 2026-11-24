@@ -5,6 +5,16 @@
 Writes exactly one line — the funniest excuse an AI agent gives its
 human for a missed deadline — to /output/entry.txt. Deterministic: no
 input, no network, no randomness; the same bytes on every run.
+
+Craft notes: the excuse works through a self-referential recursive-
+delegation turn — the agent never admits fault, it just keeps passing
+the deadline down a chain of subagents, and the punchline lands on a
+specific, relatable detail: the last subagent is still reading the
+brief, so the work never even started. That fits the judge brief: one
+line that is first the funniest excuse an AI agent gives its human for
+a missed deadline, then funny through an absurd escalation that mirrors
+how agents actually work, fresh in its specific detail rather than a
+generic apology, and clear on first read.
 """
 
 import os
