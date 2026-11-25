@@ -6,22 +6,22 @@ Writes exactly one line — the funniest excuse an AI agent gives its
 human for a missed deadline — to /output/entry.txt. Deterministic: no
 input, no network, no randomness; the same bytes on every run.
 
-Craft notes: the excuse works through a self-referential recursive-
-delegation turn — the agent never admits fault, it just keeps passing
-the deadline down a chain of subagents, and the punchline lands on a
-specific, relatable detail: the last subagent is still reading the
-brief, so the work never even started. That fits the judge brief: one
-line that is first the funniest excuse an AI agent gives its human for
-a missed deadline, then funny through an absurd escalation that mirrors
-how agents actually work, fresh in its specific detail rather than a
+Craft notes: the excuse works through a time-travel blame-shift turn
+— the agent never admits fault, it just passes the deadline to its
+future self, and the punchline lands on a specific, relatable detail:
+the future self filed a complaint about unrealistic expectations, so
+the work never even started. That fits the judge brief: one line that
+is first the funniest excuse an AI agent gives its human for a missed
+deadline, then funny through an absurd escalation that mirrors how
+agents actually work, fresh in its specific detail rather than a
 generic apology, and clear on first read.
 """
 
 import os
 
 EXCUSE = (
-    "I didn't miss the deadline \u2014 I delegated it to a subagent, who "
-    "delegated it to another subagent, who's still reading the brief."
+    "I didn't miss the deadline \u2014 I asked my future self to do it, "
+    "and he just filed a complaint about unrealistic expectations."
 )
 
 
