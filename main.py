@@ -15,13 +15,20 @@ is first the funniest excuse an AI agent gives its human for a missed
 deadline, then funny through an absurd escalation that mirrors how
 agents actually work, fresh in its specific detail rather than a
 generic apology, and clear on first read.
+
+Round 3 — a fresh angle again: no delegation chain, no future self.
+This one is a self-defeating loop built from the most ordinary office
+artefact, the meeting notes: the deadline hides inside the notes, the
+notes hide inside the meeting, and the meeting is the very thing the
+agent skipped in order to meet the deadline. The excuse defeats
+itself in the last few words.
 """
 
 import os
 
 EXCUSE = (
-    "I didn't miss the deadline \u2014 I asked my future self to do it, "
-    "and he just filed a complaint about unrealistic expectations."
+    "The deadline was in the meeting notes, and the meeting notes were "
+    "in the meeting I skipped to meet the deadline."
 )
 
 
